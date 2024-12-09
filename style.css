@@ -1,0 +1,134 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+main {
+  background-color: #ffffff;
+  padding: 30px;
+}
+body {
+  background-color: #f2f2f2;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* generalt css */
+img {
+  object-fit: cover;
+  align-self: stretch;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: Mate, sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+p {
+  font-family: Palanquin, sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/* navbar */
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(128, 99, 64);
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 100000;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #b99c83;
+}
+.menu a,
+#navtitel {
+  font-family: Hi Melody, sans-serif;
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+  font-size: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a:hover {
+  color: #fffbca;
+}
+
+footer {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #482d2d;
+  font-family: Palanquin, sans-serif;
+  text-decoration: none;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.hero {
+  background-color: rgb(185, 156, 131);
+}
+
+.divider {
+  border-top: 3px dashed #b99c83;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+li {
+  list-style-type: none;
+}

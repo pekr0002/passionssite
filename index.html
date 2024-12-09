@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.webp" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.webp" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.webp" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <title>Passionssite</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo.png" alt="Logo" />
+        </a>
+      </div>
+      <p id="navtitel">Passionssite</p>
+      <nav>
+        <ul class="menu">
+          <li><a href="#video">Video</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+      <dotlottie-player src="https://lottie.host/1f657327-df5d-425e-82e9-78bb1d132c7e/oPB9UgvATm.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+    </section>
+    <main>
+      <div class="grid_1-1 indhold" id="frederikke">
+        <div class="text">
+          <h1>Frederikkes passion</h1>
+          <h2>Barrista</h2>
+          <p>Frederikke, 22 år, arbejder på <a href="https://farsdreng.com/">Fars Dreng</a>, en café i hjertet af København. For hende er det mere end et job – det er en passion. Hun elsker at kræse for gæsterne, perfektionere hver kop kaffe og skabe en stemning, hvor alle føler sig hjemme. Cafélivet er hendes passion.</p>
+        </div>
+        <div class="img-w-text">
+          <img src="img/glad_frede.webp" id="billede1" alt="" />
+
+          <p>Frederikke</p>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div>
+        <h2>Billeder fra Fars Dreng</h2>
+        <div class="billedekunst">
+          <img src="img/farsdreng.webp" id="billede2" alt="" />
+          <img src="img/drikkevarer.webp" id="billede3" alt="" />
+          <img src="img/stemningsbillede.webp" id="billede4" alt="Billede af Fars Dreng logo" />
+          <img src="img/kaffelavning.webp" id="billede5" alt="" />
+        </div>
+      </div>
+      <div id="video">
+        <div class="divider"></div>
+        <h2>Se interviewet med Frederikke</h2>
+        <div class="grid_1-1">
+          <video controls>
+            <source src="interview.mp4" type="video/mp4" />
+          </video>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RzUwLDgNkvM?si=2kxZXsC3Wy7wHDaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer_ul">
+        <li><p>Lavet af Penny</p></li>
+      </ul>
+    </footer>
+  </body>
+</html>
